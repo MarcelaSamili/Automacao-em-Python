@@ -23,7 +23,7 @@ sleep(0.5)
 
 #clicar no arquivo que eu quero e arrastar ele
 pyautogui.moveTo(1233, 32) #para ver esas posisções, abra python console e coloque o comando pyautogui.positon() no Python Console, posicione o mouse sobre o arquivo que quer pegar e sem tirar o mouse do lugar de ok no python console e vai aparecer Point x... e y.. e é so por aqui
-sleep(0.5)
+sleep(0.5)                 #essas coordenadas sao do meu pc as do seu é diferente voce precisa fazer isso qui de cima^ .
 pyautogui.mouseDown()
 sleep(0.5)
 
