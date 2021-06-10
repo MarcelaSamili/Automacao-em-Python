@@ -5,7 +5,7 @@ from time import sleep
 
 #PASSOS
 
-pyautogui.alert('Não meixa no pc durante a execurção do programa!!!')
+pyautogui.alert('Não mexa no pc durante a execurção do programa!!!')
 
 #entrei no google drive no pc
 pyautogui.PAUSE = 0.5 # O CODIGO É FEITO MUITO RÁPIDO E AS VEZES O PC PODE NAO ACOMAPNHR ENTAO É BOM COOCAR UM TEMPO ENTRE UMA FUNÇÃO E OUTRA
@@ -21,9 +21,9 @@ sleep(1)
 pyautogui.hotkey('winleft', 'd')
 sleep(0.5)
 
-#clicar no arquivo que eu quero fazer beckup e arrastei ele
-pyautogui.moveTo(1233, 32) #para ver esas posissões, abra python console e coloque o comando pyautogui.positon() no Python Console, posicione o mouse sobre o arquivo que quer pegar e sem tirar o mouse do lugar de ok no python console e vai aparecer Point x... e y.. e é so por aqui
-sleep(0.5)
+#clicar no arquivo que eu quero e arrastar ele
+pyautogui.moveTo(1233, 32) #para ver esas posisções, abra python console e coloque o comando pyautogui.positon() no Python Console, posicione o mouse sobre o arquivo que quer pegar e sem tirar o mouse do lugar de ok no python console e vai aparecer Point x... e y.. e é so por aqui
+sleep(0.5)                 #essas coordenadas sao do meu pc as do seu é diferente voce precisa fazer isso qui de cima^ .
 pyautogui.mouseDown()
 sleep(0.5)
 
@@ -38,4 +38,4 @@ pyautogui.mouseUp()
 
 #esperar 5 segundo
 sleep(2)
-pyautogui.alert('CODIGO FINALIZADO COM SUCESSO!! SEU BECKUP FOI FEITO, PODE USAR SEU PC NARMALMETE!')
+pyautogui.alert('CODIGO FINALIZADO COM SUCESSO!! SEU BECKUP FOI FEITO, PODE USAR SEU PC NORMALMETE!')
