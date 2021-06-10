@@ -13,7 +13,7 @@ pyautogui.press('winleft') #esse press é somente um click, para saber os nomes 
 pyautogui.write('chorome')
 pyautogui.press('enter')
 sleep(0.4)
-pyautogui.write('https://drive.google.com/drive/u/0/my-drive')
+pyautogui.write('http://')#aqui voce coloca o link do SEU Google Drive
 pyautogui.press('enter')
 sleep(1)
 
